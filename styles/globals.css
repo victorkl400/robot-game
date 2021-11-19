@@ -1,3 +1,19 @@
+
+:root {
+  --pixel-size: 2px;
+  --grid-cell: 64px;
+  --bg: #9fa7e4;
+}
+@media( min-width: 700px ) {
+  :root {
+     --pixel-size: 3px;
+  }
+}
+@media( min-width: 1000px ) {
+  :root {
+     --pixel-size: 4px;
+  }
+}
 html,
 body {
   padding: 0;
