@@ -21,7 +21,7 @@ export const CharacterStyled = styled.div`
 export const SpriteSheet = styled.div`
    image-rendering: pixelated;
    position: absolute;
-   background: url("./spritesheet.webp") no-repeat no-repeat;
+   background: url("./emy.png") no-repeat no-repeat;
    background-size: 100%;
    width: 512px;
    height: 512px;
